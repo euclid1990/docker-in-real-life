@@ -1,0 +1,14 @@
+{
+  "name": "docker_meet_node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js on Docker",
+  "author": "Nguyen Van Vuong",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
