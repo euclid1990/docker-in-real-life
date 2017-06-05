@@ -1,2 +1,5 @@
 .DS_Store
 .tar
+rails-app/*
+!rails-app/.gitkeep
+!rails-app/Gemfile

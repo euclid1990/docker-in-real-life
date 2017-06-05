@@ -4,4 +4,4 @@ Docker is one of the fastest-growing open source projects ever, and the ecosyste
 
 ## Google Slide
 
-- Comming Soon
+- Coming soon
