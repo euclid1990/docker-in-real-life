@@ -8,11 +8,11 @@ version: '2'
 services:
   web:
     build: .
-    image: simple-python-app
+    image: euclid1990/simple-python-app
     ports:
      - "6969:5000"
     volumes:
      - .:/code
   redis:
-    image: "redis:3.0.7-alpine"
+    image: "redis:3.0.7"
 EOF

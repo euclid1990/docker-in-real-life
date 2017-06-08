@@ -4,7 +4,7 @@ APP_PATH="./app"
 
 # Write a Dockerfile that builds a Docker image
 cat <<EOF >${APP_PATH}/Dockerfile
-FROM python:3.4-alpine
+FROM python:3.4
 ADD . /code
 WORKDIR /code
 RUN pip install -r requirements.txt
